@@ -1,0 +1,32 @@
+extends ../layout/index
+
+block content
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="Imagen de Nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                //- or h1= pagina
+                blockquote Somos una empresa con 35 años de experiencia. 
+                blockquote Comercializamos y realizamos servicios de turismo receptivo en Panamá con nuestra propia flota de autobuses y autos exclusivos de turismo. También comercializamos y realizamos los servicios de Turismo Emisor alrededor del mundo.
+                p Comenzando como pequeña empresa fue adquiriendo poco a poco su clientela, llegando a estar en término de 10 años entre las primeras cinco posiciones en ventas como agencia de viajes corporativos. 
+                p Comenzó a crear grupos a diversos destinos y hoy en día esta Agencia de Viajes es una de las empresas lideres en este tipo de productos, ofreciendo grandes ventajas a sus clientes.
+
+    .listado-iconos 
+        .container.mt-5.py-6.text-center
+            .row
+                .col-md-4.mt-5   
+                    img(src="img/icono_seguridad.svg", alt="img-fluid mb-4")    
+                    h2.mb-4 Seguridad
+                    p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, deleniti harum magnam aspernatur optio nihil maxime. Porro nihil blanditiis assumenda itaque doloribus ipsum harum, dolores cumque, perferendis officiis obcaecati tenetur? 
+
+                .col-md-4.mt-5   
+                    img(src="img/icono_destinos.svg", alt="img-fluid mb-4")    
+                    h2.mb-4 Mejores destinos
+                    p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, deleniti harum magnam aspernatur optio nihil maxime. Porro nihil blanditiis assumenda itaque doloribus ipsum harum, dolores cumque, perferendis officiis obcaecati tenetur?    
+
+                .col-md-4.mt-5   
+                    img(src="img/icono_precio.svg", alt="img-fluid mb-4")    
+                    h2.mb-4 Excelentes precios
+                    p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, deleniti harum magnam aspernatur optio nihil maxime. Porro nihil blanditiis assumenda itaque doloribus ipsum harum, dolores cumque, perferendis officiis obcaecati tenetur?       

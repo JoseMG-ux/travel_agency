@@ -21,18 +21,18 @@ h3 {
 }
 
 .btn-success {
-    background-color: #DC135F;
-    border-color: #DC135F;
+    background-color: #49434b;
+    border-color: #49434b;
     padding: .8rem 0;
     text-transform: uppercase;
     border-radius: .8rem;
 }
 .btn-success:hover {
-    background-color: rgb(184, 5, 73);
-    border-color: rgb(192, 7, 78);
+    background-color: rgb(16, 5, 46);
+    border-color: rgb(255, 255, 255);
 }
 .slider {
-    background: url(../img//superior.jpg);
+    background: url(../img//destinos-panama.jpg);
     min-height: 600px;
     height: 100vh;
     background-size: cover;
@@ -75,7 +75,7 @@ blockquote {
     line-height: 2;
 }
 p {
-    font-size: 1.2rem;
+    font-size: .9rem;
     line-height: 2;
 }
 .navegacion {
@@ -133,7 +133,7 @@ footer .nav a,
     font-size: 2.4rem;
 }
 .descuento .precio {
-    color: #15B9D5;
+    color:  #15B9D5;
     font-size: 3rem;
 }
 
@@ -141,7 +141,7 @@ footer .nav a,
     font-size: .9rem;
 }
 i {
-    color: #DC135F;
+    color: #49434b;
     font-size: 2rem;
 }
 
