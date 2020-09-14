@@ -31,7 +31,9 @@ exports.agregartestimonial = async (req, res) => {
             errores,
             nombre,
             correo,
-            mensaje
+            mensaje,
+            pagina:'Testimoniales',
+            testimoniales
         })
      }else{
          //store in BD
