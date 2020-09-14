@@ -1,10 +1,6 @@
 const express = require ('express');
 const route = express.Router();
 
-const Viaje = require('../models/Viajes');
-const Testimonial = require('../models/Testimoniales');
-
-
 //Controllers
 const nosotrosController = require('../controllers/nosotrosControllers');
 const homeController = require('../controllers/homeControllers');
@@ -19,7 +15,7 @@ module.exports = function(){
     route.get('/viajes/:id', viajesController.mostrarViajeID);
     route.get('/testimoniales', testimonialesController.mostrarTestimoniales);
     //Form 
-    route.post("/testimoniales", testimonialesController.agregartestimonial)
+    route.post('/testimoniales', testimonialesController.agregartestimonial)
 
     return route;
 }
