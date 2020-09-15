@@ -1,3 +1,5 @@
+const { request } = require('express');
+
 const sequelize = require('sequelize');
 const db = require('../config/database');
 
