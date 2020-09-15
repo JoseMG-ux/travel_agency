@@ -9,7 +9,6 @@ exports.consultasHomePage = async (req, res) =>{
 
         res.render('index', {
                 pagina: 'Proximos Viajes',
-                pagina: 'Testimoniales',
                 clase: 'home',
                 viajes,
                 testimoniales
