@@ -1,6 +1,6 @@
-const sequelize = require('sequelize');
+const { request } = require('express');
 const db = require('../config/database');
-const { Sequelize } = require('sequelize');
+const  Sequelize  = require('sequelize');
 
 const Testimonial = db.define('testimoniales', {
     nombre:{
