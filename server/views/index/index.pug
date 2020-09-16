@@ -5,7 +5,7 @@ block slider
         h1.punchline Panama
         em.tagline aventura
 block content   
-    main.container.mt-5.tag-line
+    main.container.mt-5.tagline
         h2.text-center.mb-5 Sobre Nosotros
         .row.mb-5
             .col-md-6
@@ -16,7 +16,7 @@ block content
 
         h2.text-center.mb-5 Proximos viajes
         include ../layout/partials/viajes
-    .descuento.tag-line
+    .descuento.tagline
         .container
             .row
                 .col-md-6
@@ -25,11 +25,11 @@ block content
                         p.titulo Viaje a Canada
                         p.fecha 20 de Marzo 2020 - 28 de Marzo 2021
                         p.precio $2,500 USD
-    .container.tag-line
+    .container.tagline
         h2.text-center.my-5 Testimoniales
         include ../layout/partials/testimoniales
 
         script.
             ScrollReveal().reveal('.headline')
-            ScrollReveal().reveal('.tagline', { delay: 600 })
-            ScrollReveal().reveal('.punchline', { delay: 1000 })
+            ScrollReveal().reveal('.tagline', { delay: 400 })
+            ScrollReveal().reveal('.punchline', { delay: 800 })
