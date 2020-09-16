@@ -20,6 +20,7 @@ h3 {
     font-size: 3rem;
 }
 
+
 .btn-success {
     background-color: #49434b;
     border-color: #49434b;
@@ -166,3 +167,44 @@ i {
     font-weight: bold;
     margin-top: 1rem;
 }
+
+#nFooter{
+    color: black;
+    text-decoration: none;
+}
+#nFooter:hover{
+    color: rgb(58, 56, 56);
+}
+
+.love svg {
+    height: 1.90rem;
+}
+
+.heart {
+    fill: red;
+    position: relative;
+    top: 1px;
+    width: 50px;
+    animation: pulse .9s infinite;
+    transform-origin: center;
+}
+
+@keyframes pulse {
+    from { transform: none; }
+    50% { transform: scale(1.4); }
+    to { transform: none; }
+}
+.signature {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+    color: #5d6c89;
+    font-weight: 500;
+}
+
+.socialnet {
+    color: black;
+    margin: 0.2rem;
+    font-size: 2rem;
+    padding-right: 0.5rem;
+  }
