@@ -1,7 +1,7 @@
 extends ../layout/index
 
 block content
-    main.container.mt-5
+    main.container.mt-5.tagline
         .row
             .col-md-5
                 img(src=`/img/destinos_${viaje.imagen}_ln.jpg`, class="img-fluid")            
@@ -9,7 +9,7 @@ block content
                 h1 #{viaje.titulo}
                 p
                     i.fas.fa-calendar-alt 
-                    |    #{viaje.fecha_ida} / #{viaje.fecha_vuelta}
+                    |    Fecha ida: #{viaje.fecha_ida} / Fecha Vuelta: #{viaje.fecha_vuelta}
                 p
                     i.fas.fa-dollar-sign
                     |    #{viaje.precio}
@@ -17,3 +17,5 @@ block content
                     i.fas.fa-users
                     |    #{viaje.disponible} Disponibles
                 p= viaje.descripcion
+             script.
+                ScrollReveal().reveal('.tagline', { delay: 500 })
