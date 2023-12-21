@@ -16,3 +16,5 @@ module.exports = new Sequelize(process.env.BD_NOMBRE, process.env.BD_USER, proce
   },
   operatorsAliases: 1
 });
+
+//implementacion de heroku

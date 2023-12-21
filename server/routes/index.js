@@ -7,6 +7,7 @@ const homeController = require('../controllers/homeControllers');
 const viajesController = require('../controllers/viajesControllers')
 const testimonialesController = require('../controllers/testimonialesControllers')
 
+
 module.exports = function(){
 //endpoints
     route.get('/', homeController.consultasHomePage )   
@@ -19,3 +20,5 @@ module.exports = function(){
 
     return route;
 }
+
+//heroku alalal
