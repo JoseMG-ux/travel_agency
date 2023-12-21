@@ -1,3 +1,5 @@
 node_modules
 variables.env
 .DS_STORE
+
+.vscode
